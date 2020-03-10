@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace RaceTrack.RaceTrack.Cars
 {
-
     public class OutLander : RaceCar
     {
         public OutLander()
@@ -16,7 +15,7 @@ namespace RaceTrack.RaceTrack.Cars
         }
         public override void StartEngine()
         {
-            Console.WriteLine($"The {Name} roars to life!!");
+            Console.WriteLine($"The {Name} comes alive!!");
         }
         public override void Brake()
         {
