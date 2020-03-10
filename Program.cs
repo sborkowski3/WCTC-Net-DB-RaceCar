@@ -10,7 +10,7 @@ namespace RaceTrack
     {
         static void Main(string[] args)
         {
-            var raceTrack = new RaceTrack.RaceTrack(5);
+            var raceTrack = new RaceTrack.RaceTrack(6);
 
             raceTrack.PositionCars();
             raceTrack.DriversReady();
